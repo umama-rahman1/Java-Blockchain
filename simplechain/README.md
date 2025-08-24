@@ -10,16 +10,18 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 ## Steps to run the project
 
+From project root folder, you can:
+
 1. Compile using:
 
     ```shell
-    javac -d bin src/*.java
+    javac -cp "lib/*" -d bin src/*.java
     ```
 
 1. Run using:
 
     ```shell
-    java -cp bin SimpleChain
+    java -cp "lib/*:bin" SimpleChain
     ```
 
 ## Dependency Management
