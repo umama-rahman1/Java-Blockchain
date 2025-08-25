@@ -1,3 +1,4 @@
+package simplechain;
 
 import java.security.MessageDigest;
 

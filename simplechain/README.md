@@ -15,13 +15,13 @@ From project root folder, you can:
 1. Compile using:
 
     ```shell
-    javac -cp "lib/*" -d bin src/*.java
+    javac -cp "lib/*" -d bin src/simplechain/*.java
     ```
 
 1. Run using:
 
     ```shell
-    java -cp "lib/*:bin" SimpleChain
+    java -cp "lib/*:bin" simplechain/SimpleChain
     ```
 
 ## Dependency Management
