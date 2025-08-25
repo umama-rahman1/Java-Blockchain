@@ -1,6 +1,7 @@
 {
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
-    "simplechain/lib/gson-2.6.2.jar"
+    "simplechain/lib/gson-2.6.2.jar",
+    "simplechain/lib/bcprov-jdk18on-1.81.jar"
   ]
 }
