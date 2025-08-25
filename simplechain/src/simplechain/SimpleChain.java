@@ -1,12 +1,17 @@
 package simplechain;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+
 import com.google.gson.GsonBuilder;
 import java.security.Security;
 
 public class SimpleChain {
 
     public static ArrayList<Block> blockchain = new ArrayList<Block>();
+
+    // list of all unspent transactions
+    public static HashMap<String, TransactionOutput> UTXOs = new HashMap<String, TransactionOutput>();
 
     public static int difficulty = 5; // for mining
 
